@@ -76,14 +76,3 @@ dotnet run
 а также ключи `JWT:Issuer`, `JWT:Audience`, `JWT:SigningKey` и `FMPKey` (apikey Financial Modeling Prep).
 
 После запуска документация доступна по адресу `/swagger`.
-
-## Тестирование
-
-Проект `api.Test` (xUnit) — юнит-тесты репозиториев и сервисов (в разработке).
-
-## Планы по развитию
-
-- Покрытие тестами (xUnit + FluentAssertions / Moq)
-- FluentValidation для DTO
-- Docker + docker-compose (API + SQL Server)
-- CI через GitHub Actions (build + test + миграции)
